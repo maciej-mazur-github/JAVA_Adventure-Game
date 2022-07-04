@@ -19,4 +19,8 @@ public class Location {
             System.out.println("This location already contains this exit. Try again");
         }
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
