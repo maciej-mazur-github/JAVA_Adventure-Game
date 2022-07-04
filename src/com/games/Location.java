@@ -20,7 +20,11 @@ public class Location {
         }
     }
 
-    public String getDescription() {
+    String getDescription() {
         return description;
+    }
+
+    Map<String, Integer> getExits() {
+        return new HashMap<>(exits);
     }
 }
